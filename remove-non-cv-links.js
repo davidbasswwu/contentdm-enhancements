@@ -1,10 +1,11 @@
 /*
-  author: david.bass at wwu dot edu
+  	author: david.bass at wwu dot edu
 	date: 10 July 2013
 	goal: remove non-controlled-vocabulary links from the description area of our CONTENTdm v6 system.
 	copyright WWU 2013
+	license: GNU Affero General Public License - https://www.gnu.org/licenses/agpl-3.0.html
 	
-  http://jsfiddle.net/JF2Ad/1/
+	test: http://jsfiddle.net/JF2Ad/1/
 	
 */
 
