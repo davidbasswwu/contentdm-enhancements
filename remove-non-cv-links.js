@@ -17,7 +17,7 @@ $(document).ready(function () {
 	var isLandingPage = currentUrl.indexOf('/cdm/landingpage');
 	
     if ((isSearchPage == -1) && (isLandingPage == -1)) {
-        $("a.body_link_11:visible").each(function () {
+        $("a.body_link_11:visible").not(".co-page-link").each(function () {        	
             // ignore any links without an href; those are the list of collections used in advanced search 
 
             var $t = $(this);
