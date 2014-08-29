@@ -1,5 +1,4 @@
 /* David Bass @ WWU - 29 Aug 2014 */
-/* when combined with search-tab.js, this css combines the exact, all, and any searches into one page */ 
 
 /* roundout tabs */
 
@@ -208,12 +207,12 @@
 }
 
 
-#paginationLinksAll.link_bar_pagination, #paginationLinksAny.link_bar_pagination {
+#paginationLinksExact.link_bar_pagination, #paginationLinksAll.link_bar_pagination, #paginationLinksAny.link_bar_pagination {
 	min-width: 220px;
 	float:right;
 }
 
-div#resultsAll, div#resultsAny {
+div#resultsExact, div#resultsAll, div#resultsAny {
 	clear: both;
 }
 
@@ -266,3 +265,13 @@ div#resultsAll, div#resultsAny {
 		50%  { -moz-transform: rotate(0deg); opacity: 1; }
 		to   { -moz-transform: rotate(0deg); opacity: 0.6; }
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
