@@ -17,3 +17,5 @@ To add these files to your configuration, go to example.com/config, Global Setti
 #remove non-cv links
 The "non-cv" js file converts non-controlled vocabulary links (found on item-level display pages) to plain text (e.g. it removes the link).  To better understand why we did this, please compare the links at the bottom of http://cdm15963.contentdm.oclc.org/cdm/compoundobject/collection/vstudy/id/441 with the object description of http://content.wwu.edu/cdm/compoundobject/collection/gbscrapbook/id/536/rec/2 as shown in the following screenshot:
 ![](https://dl.dropboxusercontent.com/s/qqwkbhwasdm3qlr/2014-08-29%20at%201.53%20PM.png?dl=0)
+
+As you can see, CONTENTdm converts (almost) every word in the object description section to a link.  We only wanted controlled-vocabulary and date fields to be links, so that is why we created the non-cv link-remover script.
