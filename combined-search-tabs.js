@@ -48,7 +48,7 @@ $(document).ready(function() {
 			tabs += "</ul></div>";
 			$("#results_tn_col2").append(tabs);
 			
-			var tabContents = "<div class='tab_content selected_tab_content' id='tab-exact_content'><div id='paginationLinksExact'></div><div id='resultsExact'></div></div>";
+			var tabContents = "<div class='tab_content selected_tab_content' id='tab-exact_content'><div id='paginationLinksExact' class='link_bar_pagination'></div><div id='resultsExact'></div></div>";
 			tabContents += "<div class='tab_content' id='tab-all_content'><div id='paginationLinksAll' class='link_bar_pagination'></div><div id='resultsAll'></div></div>";
 			tabContents += "<div class='tab_content' id='tab-any_content'><div id='paginationLinksAny' class='link_bar_pagination'></div><div id='resultsAny'></div></div>";
 			$("#results_tn_col2").append(tabContents);
